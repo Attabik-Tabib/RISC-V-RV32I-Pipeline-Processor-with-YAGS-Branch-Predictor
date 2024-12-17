@@ -1,0 +1,34 @@
+program_counter.sv
+PC_adder_MUX_IF_Stage.sv
+jump_mux.sv
+inst_mem.sv
+YAGS_branch_predictor.sv
+Taken_Array.sv
+Not_Taken_Array.sv
+IF_ID_Stage_Reg.sv
+imm_gen.sv
+control_logic.sv
+reg_file.sv
+hazard_detection_unit.sv
+mux_stall_signals_control.sv
+ID_EX_Stage_Reg.sv
+branch_comparator.sv
+branch_jump_decision.sv
+signal_gen_for_branch_mux.sv
+global_history_register.sv
+forwarding_unit.sv
+mux_forward_A.sv
+mux_jalr.sv
+mux_forward_B.sv
+mux_R_I_type_select.sv
+store_data_hazard_mux.sv
+alu_logic.sv
+EX_MEM_Stage_Reg.sv
+data_mem.sv
+PC_adder_MEM_Stage.sv
+MEM_WB_Stage_Reg.sv
+mux_reg_write_back.sv
+YAGS_branch_predictor_tb.sv
+top.sv
+-access +rwc 
+-timescale 1ns/100ps 
